@@ -1,0 +1,43 @@
+{
+  "name": "angular",
+  "version": "1.0.0",
+  "description": "gulp components needed",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp start",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keepsilentw/angular.git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "silas, 369694143@qq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keepsilentw/angular/issues"
+  },
+  "homepage": "https://github.com/keepsilentw/angular#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-angular-templatecache": "^2.0.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-csso": "^2.0.0",
+    "gulp-open": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rev": "^7.1.2",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-usemin": "^0.3.24",
+    "run-sequence": "^1.2.2"
+  },
+  "bugs": {
+    "url": "https://github.com/tww316/angular/issues"
+  },
+  "homepage": "https://github.com/tww316/angular#readme"
+}

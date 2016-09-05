@@ -1,0 +1,7 @@
+<div class="selector row">
+  <div class="label col-xs-1" ng-bind="label"></div>
+  <div class="all col-xs-1" ng-click="choose(item)" ng-class="{'active': item.val == selected}">全部</div>
+  <div class="choices col-xs-10">
+    <div class="choice" ng-class="{'active': selected.indexOf(item.val)>=0}" ng-repeat="item in data" ng-bind="item.key" ng-click="choose(item)"></div>
+  </div>
+</div>

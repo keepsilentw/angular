@@ -1,0 +1,34 @@
+{
+  "name": "angular-require",
+  "description": "develop components needed",
+  "main": "./src/index.html",
+  "authors": [
+    "silas",
+    "369694143@qq.com"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "angular",
+    "bootstrap"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "angular-bootstrap": "^2.1.3",
+    "angular-h-sweetalert": "^1.4.7",
+    "angular-i18n": "^1.5.8",
+    "angular-loading-bar": "^0.9.0",
+    "angular-route": "^1.5.8",
+    "angularjs-toaster": "^2.0.0",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.6.3",
+    "jquery": "^3.1.0",
+    "moment": "^2.14.1",
+    "sweetalert": "^1.1.3",
+    "underscore": "^1.8.3"
+  },
+  "resolutions": {
+    "angular": "^1.5.8"
+  },
+  "homepage": "https://github.com/tww316/angular"
+}

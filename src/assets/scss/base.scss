@@ -1,0 +1,35 @@
+$black: #000;
+$blue: #428bca;
+$l-blue: #72bbff;
+$ddd: #ddd;
+$f3: #f3f3f3;
+$gray: #999;
+$white: #fff;
+
+@mixin common($attr, $value...) {
+  -moz-#{$attr}: $value;
+  -webkit-#{$attr}: $value;
+  #{$attr}: $value;
+}
+@mixin calc($property, $expression) {
+  #{$property}: -moz-calc(#{$expression});
+  #{$property}: -webkit-calc(#{$expression});
+  #{$property}: calc(#{$expression});
+}
+
+%word {
+  word-break: break-all;
+  word-wrap: break-word;
+}
+%text-overflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+%text-overflow-line2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}

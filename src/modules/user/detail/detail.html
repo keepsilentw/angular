@@ -1,0 +1,54 @@
+<div class="container user-page">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <ol class="breadcrumb">
+        <li><a href="/#/user">用户管理</a></li>
+        <li class="active">编辑用户</li>
+      </ol>
+    </div>
+    <div class="panel-body">
+      <form name="retrievalForm" class="form-horizontal">
+        <div class="form-group col-xs-4">
+          <label class="control-label col-xs-4">工号</label>
+          <div class="col-xs-8">
+            <input type="text" class="form-control" ng-model="params.userid" disabled>
+          </div>
+        </div>
+        <div class="form-group col-xs-4">
+          <label class="control-label col-xs-4">姓名</label>
+          <div class="col-xs-8">
+            <input type="text" class="form-control" ng-model="params.name">
+          </div>
+        </div>
+        <div class="form-group col-xs-4">
+          <label class="control-label col-xs-4">手机号</label>
+          <div class="col-xs-8">
+            <input type="text" class="form-control" ng-model="params.mobile">
+          </div>
+        </div>
+        <div class="form-group col-xs-4">
+          <label class="control-label col-xs-4">职级</label>
+          <div class="col-xs-8">
+            <input type="text" class="form-control" ng-model="params.role" disabled>
+          </div>
+        </div>
+        <div class="form-group col-xs-4">
+          <label class="control-label col-xs-4">邮箱</label>
+          <div class="col-xs-8">
+            <input type="text" class="form-control" ng-model="params.email">
+          </div>
+        </div>
+        <div class="form-group col-xs-4">
+          <label class="control-label col-xs-4">在职状态</label>
+          <div class="col-xs-8">
+            <select class="form-control" ng-model="params.valid" ng-options="vs.key as vs.val for vs in validStates"></select>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="panel-footer text-right">
+      <button class="btn btn-default" ng-click="cancel()">取消</button>
+      <button class="btn btn-primary" ng-click="save()">保存</button>
+    </div>
+  </div>
+</div>
